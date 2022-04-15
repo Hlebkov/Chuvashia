@@ -1,0 +1,142 @@
+body {
+    background: #ffffff;
+}
+.container  {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-size-adjust: 100;
+}
+
+.card-img-top {
+    width: 350px;
+}
+
+.card {
+width: 350px;
+border: solid 1px rgb(97, 90, 90);
+/* color: silver; */
+
+}
+
+.card h5 {
+   /* font: bolder; */
+   /* font: normal 30px; */
+   font:  bolder 18px 'Roboto', sans-serif;
+    /*font-size: 30px; */
+    margin: 0px;
+    }
+
+.card-body { 
+
+    padding: 30px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background: #e45d80;
+    color: white;
+
+}
+
+h1 {
+    color: rgb(236, 186, 124);
+}
+
+/* h1:hover {
+    color: red;
+} */
+
+em {
+    color: rgb(174, 255, 142);
+    }
+
+li {
+    text-shadow: 10;
+    /* color: black; */
+    font-weight: bold;
+}
+
+.list em {
+font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+color: rgb(0, 255, 200);
+font-size: 25px;
+text-decoration: line-through;
+
+}
+
+a:visited {
+text-decoration: line-through;
+color: silver;
+}
+.element {
+	/* font-size: 18px;
+	font-width: normal;
+	font-family: 'Roboto', sans-serif; */
+
+	font:  normal 18px 'Roboto', sans-serif;
+}
+
+.element2 {
+	font-size: 18px;
+	font-width: normal;
+	font-family: 'Roboto', sans-serif;
+
+	/* font:  18px normal sans-serif; */
+}
+
+.flag {
+    position: relative;
+
+width: 600px;
+height: 400px;
+background: rgb(255, 255, 255);
+border: 1px solid black;   
+}
+
+.circle {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+
+width: 240px;
+height: 240px;    
+background: red;
+border-radius: 50%;
+}
+
+/* .list2 {
+    list-style: none;
+    list-style: none;
+    color: red;
+    /* color: rgba(0,0,0,.125); */
+    /* padding: 100px; */
+   
+/* } */
+
+.list-group {
+    list-style: none;
+    width: fit-content;
+    border-radius: 4px;
+    padding: unset;
+    border: 1px solid black;
+}
+
+.list-group-item {
+    list-style: none;
+    padding: 5px;
+    /* margin-top: -1px; */
+    border-bottom: 1px solid black;
+
+}
+
+.list-group-item:nth-child(3) {
+    border-bottom: none;
+}
